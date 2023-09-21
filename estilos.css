@@ -1,0 +1,159 @@
+r* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: #1D202B;
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+}
+
+.frontal{
+	display: flex;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+}
+
+.contenedor {
+	width: 100%;
+	max-width: 1200px;
+	margin: auto;
+	padding: 40px 0;
+	display: grid;
+	grid-template-columns: 3fr auto;
+	gap: 10px;	
+}
+
+.titulo {
+	font-size: 24px;
+	padding: 20px 0;
+}
+
+.contenedor-conciertos {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr );
+	gap: 10px;
+	
+}
+
+.card {
+	background: grey;
+	border-radius: 10px;
+	height: 500px;
+	padding: 20px;
+	position: relative;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center center;
+	color: black;
+	display: flex;
+	flex-direction: column;
+	justify-content:space-between;
+}
+
+.card .img{
+	width: 150px;
+	height: 150px;
+	border-radius: 35px;
+}
+
+.card .precio{
+	font-weight: bold;
+}
+
+.carrito {
+	border-radius: 10px;
+	text-align: center;
+	padding: 20px;
+	background-size: cover;
+	background-position: center center;
+    width: 350px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+		
+}
+
+.precio{
+	display: flex;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+	padding: 20px;
+}
+
+.btn {
+	background: #FFD600;
+	display: block;
+	width: 100%;
+	font-weight: bold;
+	font-size: 14px;
+	text-align: center;
+	padding: 10px;
+	border: none;
+	border-radius: 100px;
+	font-family: 'Roboto', sans-serif;
+	cursor: pointer;
+}
+
+.btn1 {
+	background: orange;
+	display: block;
+	width: 50%;
+	font-weight: bold;
+	font-size: 30px;
+	text-align: center;
+	padding: 10px;
+	border: none;
+	border-radius: 100px;
+	font-family: 'Roboto', sans-serif;
+	cursor: pointer;
+}
+
+.carrito .btn {
+	background: #FFD600;
+	display: block;
+	width: 100%;
+	font-weight: bold;
+	font-size: 14px;
+	text-align: center;
+	padding: 10px;
+	border: none;
+	border-radius: 100px;
+	font-family: 'Roboto', sans-serif;
+	cursor: pointer;
+}
+
+.btnBorrarProducto{
+    border-radius: 20px;
+	background: rgb(221, 74, 74);
+	color: #fff;
+}
+.tabla {
+	margin: 0 auto;
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.tabla thead {
+	background-color: #1D202B;
+	color: #fff;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.tabla th,
+.tabla td {
+	text-align: center;
+	border: .5px solid #ccc;
+	font-size: 10px;
+}
+
+#costo-total {
+	text-align: right;
+	margin-top: 20px;
+	font-weight: bold;
+}
+
