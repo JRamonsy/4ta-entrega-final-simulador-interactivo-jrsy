@@ -4,15 +4,27 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.31/dist/sweetalert2.all.min.js"></script>
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> 
 	<link rel="stylesheet" href="estilos.css">
-	<title>Flexbox vs CSS Grid</title>
+	<title>Simulador refacciones</title>
 </head>
 <body>
 	<section  class="frontal">
-    <h1>SUSPENSIÓN DELANTERA (SEAT Ibiza)</h1>
+		<div id="clima">
+			<h1></h1>
+		</div>
+		<div>
+			<h1>SUSPENSIÓN DELANTERA (SEAT Ibiza)</h1>
+		</div>
+		<div>
+			<button id="reiniciar-btn" class="btn2">Nueva Compra</button>
+		</div>
+
+    
 	</section>
 	<div class="contenedor">
 		<div class="contenedor-conciertos">
@@ -187,8 +199,13 @@
 			</section>
 			<button class="btn1">Comprar</button>
 			
+			
 		</div>
 	</div>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 	<script src="carrito.js"></script>
 </body>
 </html>
+
+
